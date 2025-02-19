@@ -35,7 +35,7 @@ Make sure you have the following installed:
 ### Clone the Repository
 
 ```sh
-git clone https://github.com/your-username/currency-exchange-api.git
+git clone https://github.com/BLOCK-PROGRAMR/ExchangeApi.git
 cd currency-exchange-api
 ```
 

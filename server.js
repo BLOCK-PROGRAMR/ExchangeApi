@@ -67,6 +67,7 @@ app.post("/convert", async (req, res) => {
 app.get("/history", async (req, res) => {
     try {
         const history = await Conversion.find().sort({ timestamp: -1 }).limit(10);
+        console.log("history", history)
         res.json(history);
     } catch (error) {
         console.error("❌ History Fetch Error:", error.message);
